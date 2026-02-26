@@ -101,6 +101,8 @@ The command prints the signed audit log JSON to stdout so it can be redirected t
 ## Documentation
 
 - **[Architecture Overview](docs/architecture.md)**: Deep dive into how the Go CLI communicates with the Rust simulator, including data flow, IPC mechanisms, and design decisions.
+- **[Logging System](docs/LOGGING.md)**: Unified logging across Go and Rust with `--log-level` flag for interleaved debugging.
+- **[Docker Usage](docs/DOCKER.md)**: Multi-architecture Docker images and deployment guide.
 - **[Project Proposal](docs/proposal.md)**: Detailed project proposal and roadmap.
 - **[Source Mapping](docs/source-mapping.md)**: Implementation details for mapping WASM failures to Rust source code.
 - **[Debug Symbols Guide](docs/debug-symbols-guide.md)**: How to compile Soroban contracts with debug symbols.
