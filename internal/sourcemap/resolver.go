@@ -17,8 +17,6 @@ import (
 	"github.com/dotandev/hintents/internal/logger"
 )
 
-const wasmTargetPath = "target/wasm32-unknown-unknown/release"
-
 // Resolver coordinates fetching verified source code from a registry,
 // with optional local caching and auto-discovery of local DWARF symbols.
 type Resolver struct {
